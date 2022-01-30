@@ -13,20 +13,20 @@
     color: var(--text-color1);
 }
 
-.sidebar-ulist{
+.sidebar-ul{
     padding: 2rem 1rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-.sidebar-ulist li a{
+.sidebar-ul li a{
     padding-left: 1rem;
     text-decoration: none;
     color: var(--text-color2);
 }
 
-.sidebar-ulist li a:hover{
+.sidebar-ul li a:hover{
     color: var(--primary-color);
 }
 
