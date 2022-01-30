@@ -20,6 +20,7 @@
 	box-sizing: border-box;
 	word-wrap: break-word;
 }
+
 html{
     scroll-behavior: smooth;
     overflow-x: hidden;
@@ -33,10 +34,12 @@ html{
     --text-color1: rgb(58, 57, 57);
     --text-color2 : rgb(83, 82, 82);
 }
+
 /**/
 .list-style-none{
     list-style: none;
 }
+
 .inline-list{
     display: flex;
 }

@@ -1,29 +1,35 @@
 .nav-bar{
-    /* grid-area: "header"; */
-    display: flex;
+    /* grid-area: "header"; */ 
     grid-column: 1/-1;
     grid-row:2/-2;
-    padding: 3rem 2rem;
+    display: flex;
+    padding: 3rem 12rem 3rem 2rem; 
     width: 100vw;
     height: 6rem;
     background-color: var(--secondary-color);
     box-shadow: var(--box-shadow);
     overflow: hidden;
 }
+
 .nav-bar-links{
     display: flex;
+    justify-content: flex-end;
+    flex: 1;
     gap: 2rem;
 }
+
 .nav-bar-links a{
     text-decoration: none;
     font-weight: bold;
     color: var(--text-color1)
 }
+
 .nav-bar-links a:hover{
     color: var(--primary-color);
 }
+
 .nav-bar-logo{
-    flex: 1;
+   
     text-align: right;
     color: var(--primary-color);
 }

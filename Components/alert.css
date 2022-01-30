@@ -1,25 +1,49 @@
+:root{
+    --alert-primary-bg : rgb(101, 229, 252);
+    --alert-primary-text : blue;
+
+    --alert-secondary-bg : rgb(223, 217, 217);
+    --alert-secondary-text : rgb(116, 113, 113);
+
+    --alert-success-bg : rgb(186, 235, 186);
+    --alert-success-text : green;
+
+    --alert-danger-bg : rgb(250, 184, 184);
+    --alert-danger-text : red;
+
+    --alert-warning-bg : rgb(248, 248, 186);
+    --alert-warning-text : rgb(133, 133, 5);
+
+}
+
+
 .alert{
     margin: 1rem 0rem;
     padding: 1rem 1rem;
     border-radius: 4px;
 }
+
 .alert-primary{
-    background-color: rgb(101, 229, 252);
-    color: blue;
+    background-color: var(--alert-primary-bg);
+    color: var(--alert-primary-text);
 }
+
 .alert-secondary{
-    background-color: rgb(223, 217, 217);
-    color: rgb(116, 113, 113);
+    background-color: var(--alert-secondary-bg);
+    color: var(--alert-secondary-text);
 }
+
 .alert-success{
-    background-color: rgb(186, 235, 186);
-    color: green;
+    background-color: var(--alert-success-bg);
+    color: var(--alert-success-text);
 }
+
 .alert-danger{
-    background-color: rgb(250, 184, 184);
-    color: red;
+    background-color: var(--alert-danger-bg);
+    color: var(--alert-danger-text);
 }
+
 .alert-warning{
-    background-color: rgb(248, 248, 186);
-    color: rgb(133, 133, 5);
+    background-color: var(--alert-warning-bg);
+    color: var(--alert-warning-text);
 }
