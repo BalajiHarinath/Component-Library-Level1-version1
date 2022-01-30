@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <link href="docs.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="grid-container-pagelayout">
+        <nav class="nav-bar"> 
+            <div class="nav-bar-links">
+                <a href="/index.html">Home</a>
+                <a href="/docs.html">Documentation</a>
+            </div>
+            <div class="nav-bar-logo">
+                <h2>Simple UI</h2>
+            </div>
+        </nav>
+        <aside class="sidebar">
+            <div>
+                <h3>Components</h3>
+                <ul class="list-style-none sidebar-ulist">
+                    <li class="sidebar-list-item"><a href="#Alert">Alert</a></li>
+                    <li class="sidebar-list-item"><a href="#Avatar">Avatar</a></li>
+                    <li class="sidebar-list-item"><a href="#Badge">Badge</a></li>
+                    <li class="sidebar-list-item"><a href="#Button">Button</a></li>
+                    <li class="sidebar-list-item"><a href="#Card">Card</a></li>
+                    <li class="sidebar-list-item"><a href="#Image">Image</a></li>
+                    <li class="sidebar-list-item"><a href="#Input">Input</a></li>
+                    <li class="sidebar-list-item"><a href="#Navigation">Navigation</a></li>
+                    <li class="sidebar-list-item"><a href="#Snackbar">Snackbar</a></li>
+                </ul>
+            </div>
+           
+        </aside>
+        <section class="main code-display">
+            <!-- Alert -->
+
+            <div class="component" id="Alert">
+                <header class="component-header">
+                    <h1>Alert</h1>
+                    <p>Alerts prominently display critical, time-sensitive warnings or directions across every page so that
+                        users see it whenever they visit the site.</p>
+                </header>
+                <div class="break-intra"></div>
+                <!-- Primary -->
+                <article class="box">
+                    <h3>Primary Alert</h3>
+                    <div class="box-content-row">
+                        <div class="alert alert-primary">
+                            A simple primary alert!!!
+                        </div>
+                    </div>
+                    <div class="code-snippet">
+                        <iframe class="code-snippet-iframe"
+                            src="https://carbon.now.sh/embed?bg=rgba%28151%2C58%2C153%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%253EA%2520simple%2520primary%2520alert%21%21%21%253C%252Fdiv%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </article>
+                <!-- Secondary -->
+                <article class="box">
+                    <h3>Secondary Alert</h3>
+                    <div class="box-content-row">
+                        <div class="alert alert-secondary">
+                            A simple secondary alert!!!
+                        </div>
+                    </div>
+                    <div class="code-snippet">
+                        <iframe class="code-snippet-iframe"
+                            src="https://carbon.now.sh/embed?bg=rgba%28151%2C58%2C153%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522alert%2520alert-secondary%2522%253EA%2520simple%2520secondary%2520alert%21%21%21%253C%252Fdiv%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </article>
+                <!-- Success -->
+                <article class="box">
+                    <h3>Success Alert</h3>
+                    <div class="box-content-row">
+                        <div class="alert alert-success">
+                            <i class="fa fa-check-square" aria-hidden="true"></i>
+                            Order placed successfully
+                        </div>
+                    </div>
+                    <div class="code-snippet">
+                        <iframe class="code-snippet-iframe"
+                            src="https://carbon.now.sh/embed?bg=rgba%28151%2C58%2C153%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2520%2509%253Ci%2520class%253D%2522fa%2520fa-check-square%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253EOrder%2520placed%2520successfully%250A%2520%253C%252Fdiv%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </article>
+                <!-- Danger -->
+                <article class="box">
+                    <h3>Danger Alert</h3>
+                    <div class="box-content-row">
+                        <div class="alert alert-danger">
+                            <i class="fa fa-times-circle" aria-hidden="true"></i>
+                            Order cancelled
+                        </div>
+                    </div>
+                    <div class="code-snippet">
+                        <iframe class="code-snippet-iframe"
+                            src="https://carbon.now.sh/embed?bg=rgba%28151%2C58%2C153%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%253E%250A%2509%253Ci%2520class%253D%2522fa%2520fa-times-circle%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2509Order%2520cancelled%250A%253C%252Fdiv%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </article>
+                <!-- Warning -->
+                <article class="box">
+                    <h3>Warning Alert</h3>
+                    <div class="box-content-row">
+                        <div class="alert alert-warning">
+                            <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                            Confirm payment
+                        </div>
+                    </div>
+                    <div class="code-snippet">
+                        <iframe 
+                            class="code-snippet-iframe"
+                            src="https://carbon.now.sh/embed?bg=rgba%28151%2C58%2C153%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%253Ci%2520class%253D%2522fa%2520fa-exclamation-triangle%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253EConfirm%2520payment%250A%253C%252Fdiv%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </article>
+                <div class="break-inter"></div>
+
+            </div>
+
+
+            <!-- Avatar -->
+
+            <div class="component" id="Avatar">
+                <header class="component-header">
+                    <h1>Avatar</h1>
+                    <p>An Avatar is used to display profile pictures in various social media applications.</p>
+                </header>
+                <div class="break-intra"></div>
+                <!-- Image Avatar -->
+                <article class="box">
+                    <h3>Image Avatar</h3>
+                    <div class="box-content-row">
+                        <div class="avatar-image">
+                            <img src="https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg"
+                                alt="avatar" class="img-round-xl" />
+                            <img src="https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg"
+                                alt="avatar" class="img-round-l" />
+                            <img src="https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg"
+                                alt="avatar" class="img-round-m" />
+                            <img src="https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg"
+                                alt="avatar" class="img-round-s" />
+                            <img src="https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg"
+                                alt="avatar" class="img-round-xs" />
+                        </div>
+                    </div>
+                    <div class="code-snippet">
+                        <iframe
+                            class="code-snippet-iframe"
+                            src="https://carbon.now.sh/embed?bg=rgba%28151%2C58%2C153%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fres.cloudinary.com%252F%250A%2520%2520diqqf3eq2%252Fimage%252Fupload%252Fv1586883417%252F%250A%2520%2520person-3_ipa0mj.jpg%2522%250A%2520%2520alt%253D%2522avatar%2522%2520class%253D%2522img-round-xl%2522%2520%252F%253E%250A%2520%2520%250A%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fres.cloudinary.com%252F%250A%2520%2520diqqf3eq2%252Fimage%252Fupload%252Fv1586883417%252F%250A%2520%2520person-3_ipa0mj.jpg%2522%250A%2520%2520alt%253D%2522avatar%2522%2520class%253D%2522img-round-l%2522%2520%252F%253E%250A%2520%2520%250A%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fres.cloudinary.com%252F%250A%2520%2520diqqf3eq2%252Fimage%252Fupload%252Fv1586883417%252F%250A%2520%2520person-3_ipa0mj.jpg%2522%250A%2520%2520alt%253D%2522avatar%2522%2520class%253D%2522img-round-m%2522%2520%252F%253E%250A%2520%2520%250A%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fres.cloudinary.com%252F%250A%2520%2520diqqf3eq2%252Fimage%252Fupload%252Fv1586883417%252F%250A%2520%2520person-3_ipa0mj.jpg%2522%250A%2520%2520alt%253D%2522avatar%2522%2520class%253D%2522img-round-s%2522%2520%252F%253E%250A%250A%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fres.cloudinary.com%252F%250A%2520%2520diqqf3eq2%252Fimage%252Fupload%252Fv1586883417%252F%250A%2520%2520person-3_ipa0mj.jpg%2522%250A%2520%2520alt%253D%2522avatar%2522%2520class%253D%2522img-round-xs%2522%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </article>
+                <div class="break-inter"></div>
+            </div>       
+
+        </section>
+        <footer class="footer">
+            <div class="footer-header">Made with <span>&lt;/&gt;</span> by Balaji BH</div>
+            <ul class="inline-list list-style-none footer-social-icons">
+                <li class="list-inline-item"><a class="link-no-style" href="https://github.com/BalajiHarinath"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+                <li class="list-inline-item"><a class="link-no-style" href="https://twitter.com/balaji_harinath"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+                <li class="list-inline-item"><a class="link-no-style"
+                        href="https://www.linkedin.com/in/balaji-harinath-90a56518a"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+            </ul>
+            <div class="footer-copy">© 2022 Simple UI</div>
+        </footer>
+    </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+    <script src="Components/components.js"></script>
+</body>
+
+</html>
+
+
+<!-- <a style="position:absolute;left:-9999px" rel="license" about="https://cdn.pixabay.com/photo/2017/09/07/04/54/khaki-2723896_960_720.jpg" href="https://creativecommons.org/licenses/publicdomain/">Public Domain</a> -->

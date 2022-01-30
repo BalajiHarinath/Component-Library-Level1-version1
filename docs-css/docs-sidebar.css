@@ -1,0 +1,32 @@
+.sidebar{
+    /* grid-area: "sidebar"; */
+    grid-row-start: 2/3;
+    padding: 2rem 1rem;
+    overflow-y: auto;
+    position: sticky;
+    top: 0rem;
+    height: calc(100vh - 4rem);
+}
+.sidebar h3{
+    padding-left: 1rem;
+    color: var(--text-color1);
+}
+.sidebar-ulist{
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.sidebar-ulist li a{
+    padding-left: 1rem;
+    text-decoration: none;
+    color: var(--text-color2);
+}
+.sidebar-ulist li a:hover{
+    color: var(--primary-color);
+}
+.sidebar-list-item:hover{
+    color: var(--primary-color);
+    transition: all 0.3s ease-in-out;
+    transform: translateX(10px);
+}

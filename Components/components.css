@@ -1,0 +1,124 @@
+:root{
+    --border-color: rgb(185, 181, 181);
+    --box-content-bg-color: rgb(250, 248, 248);
+    --code-snippet-bg-color: rgb(151, 58, 153);
+    --code-snippet-copy-color: rgb(246, 235, 255);
+}
+
+.component{
+    display: flex;
+    flex-direction: column;
+}
+.component-header{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0rem;
+}
+.component-header h1{
+    color: var(--text-color1);
+}
+.component-header p{
+    padding: 1rem 0rem;
+}
+.break-intra{
+    background-color: var(--border-color);
+    height: 0.05rem;
+    width: 90%;
+}
+.break-inter{
+    background-color: var(--border-color);
+    height: 0.1rem;
+    width: 100%;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0rem;
+    border: 1px solid var(--border-color);
+}
+.box h3{
+    padding: 1rem 1rem;
+    border-bottom: 0.5px solid var(--border-color);
+}
+.box-content-row{
+    min-height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+    background-color: var(--box-content-bg-color);
+}
+.box-content-column{
+    min-height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+    background-color: var(--box-content-bg-color);
+}
+.code-snippet{
+    background-color: var(--code-snippet-bg-color);
+    position: relative;
+    height: fit-content;
+    /* max-height: 10rem; */
+    /* overflow-x: auto; */
+}
+ /* .code-snippet-display{ 
+     background-color: rgb(150, 12, 150);
+    /* margin: 2rem 0; */
+    /* overflow: auto; */
+/* }  */ 
+.code-snippet-iframe{
+    width: 100%;
+    height: 200px;
+    border:0;
+    transform: scale(1); 
+    overflow:auto;
+} 
+/* .code-snippet-copy{
+    background: transparent;
+    border: transparent;
+    position: absolute;
+    top: 0;
+    right: 2;
+    cursor: pointer;
+    color: var(--code-snippet-copy-color);
+}
+.code-snippet pre{
+    padding: 0;
+    background: transparent; 
+    max-height: 10rem;
+    overflow: auto;
+} */
+/* .code-snippet pre code{
+    padding: 0;
+    background: transparent;
+    overflow: visible;
+} */
+/* .code-snippet pre code{
+    background-color: var(--code-snippet-bg-color);
+    color: wheat;
+    padding: 0;
+    overflow: visible;
+} */
+
+
+/*Aatar customization*/
+.avatar-image,.button-solid,.button-outline,.button-link,.action-container{
+    margin: 2rem 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+/*Badge customization*/
+.badge-text,.card-text-container{
+    margin: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
