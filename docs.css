@@ -27,12 +27,12 @@ html{
 }
 
 :root{
-    --primary-color : rgb(151, 58, 153);
-    --secondary-color : rgb(250, 248, 248); 
-    --box-shadow : 1px 1px 10px 1px rgba(59, 63, 66, 0.4);
+    --primary-color : #973a99;
+    --secondary-color : #faf8f8; 
+    --box-shadow : 1px 1px 10px 1px #3b3f4266;
 
-    --text-color1: rgb(58, 57, 57);
-    --text-color2 : rgb(83, 82, 82);
+    --text-color1: #3a3939;
+    --text-color2 : #535252;
 }
 
 /**/

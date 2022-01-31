@@ -1,41 +1,41 @@
 :root{
-    --status-online-color : yellowgreen;
-    --status-away-color : yellow;
-    --status-busy-color : red;
-    --badge-blue-bg : blue;
-    --badge-pink-bg : hotpink;
-    --badge-red-bg : red;
-    --badge-text-color : white;
+    --status-online-color : #9acd32;
+    --status-away-color : #ffff00;
+    --status-busy-color : #ff0000;
+    --badge-blue-bg : #0000ff;
+    --badge-pink-bg : #ff69b4;
+    --badge-red-bg : #ff0000;
+    --badge-text-color : #ffffff;
 }
 
-/* Badge on avatar*/
+/*------------ Badge on avatar--------------*/
 .badge-on-avatar-xl{
-    height: 200px;
-    width: 200px;
+    height: 12.5rem;
+    width: 12.5rem;
     position: relative;
 }
 
 .badge-on-avatar-l{
-    height: 150px;
-    width: 150px;
+    height: 9.375rem;
+    width: 9.375rem;
     position: relative;
 }
 
 .badge-on-avatar-m{
-    height: 100px;
-    width: 100px;
+    height: 6.25rem;
+    width: 6.25rem;
     position: relative;
 }
 
 .badge-on-avatar-s{
-    height: 70px;
-    width: 70px;
+    height: 4.375rem;
+    width: 4.375rem;
     position: relative;
 }
 
 .badge-on-avatar-xs{
-    height: 50px;
-    width: 50px;
+    height: 3.125rem;
+    width: 3.125rem;
     position: relative;
 }
 
@@ -58,41 +58,42 @@
 }
 
 .imgb-round-xl{
-    width: 200px;
-    height: 200px;
+    width: 12.5rem;
+    height: 12.5rem;
     object-fit: cover;
     border-radius: 50%;
 }
 
 .imgb-round-l{
-    width: 150px;
-    height: 150px;
+    width:  9.375rem;
+    height:  9.375rem;
     object-fit: cover;
     border-radius: 50%;
 }
 
 .imgb-round-m{
-    width: 100px;
-    height: 100px;
+    width: 6.25rem;
+    height: 6.25rem;
     object-fit: cover;
     border-radius: 50%;
 }
 
 .imgb-round-s{
-    width: 70px;
-    height: 70px;
+    width:  4.375rem;
+    height:  4.375rem;
     object-fit: cover;
     border-radius: 50%;
 }
 
 .imgb-round-xs{
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
     object-fit: cover;
     border-radius: 50%;
 }
 
-/*Badge with text and icons*/
+/*---------------Badge with text and icons---------------*/
+
 .badge-with-text,.badge-with-icon{
     display: flex;
     position: relative;
@@ -127,8 +128,8 @@
     width: 1.5rem;
     height: 1.5rem;
     position: absolute;
-    top: 12px;
-    right: 12px;
+    top: 0.75rem;
+    right: 0.75rem;
 }
 
 .badge-large{
@@ -138,8 +139,8 @@
     width: 2rem;
     height: 2rem;
     position: absolute;
-    top: 6px;
-    right: 5px;
+    top: 0.375rem;
+    right: 0.3125rem;
 }
 
 .badge-icon-small{
@@ -149,8 +150,8 @@
     width: 1.5rem;
     height: 1.5rem;
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 1.25rem;
+    right: 1.25rem;
 }
 
 .badge-icon-large{
@@ -160,8 +161,8 @@
     width: 2rem;
     height: 2rem;
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 1.25rem;
+    right: 1.25rem;
 }
 
 .blue-bg{

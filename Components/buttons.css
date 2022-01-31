@@ -1,12 +1,12 @@
 :root{
-    --btn-violet-dark : rgb(129, 7, 129);
-    --btn-violet-light: rgb(145, 59, 145);
-    --btn-solid-hover-bg : rgb(180, 10, 180);
-    --btn-white : white;
-    --btn-black : black;
-    --btn-box-shadow : 1px 4px 10px 1px rgba(59, 63, 66, 0.4);
+    --btn-violet-dark : #810781;
+    --btn-violet-light: #913b91;
+    --btn-solid-hover-bg : #b40ab4;
+    --btn-white : #ffffff;
+    --btn-black : #000000;
+    --btn-box-shadow : 1px 4px 10px 1px #3b3f4266;
 }
-
+/*---------Solid Button-----------*/
 .btn-solid{
     display: inline-block;
     text-decoration: none;
@@ -25,6 +25,7 @@
     transform: scale(1.02);
 }
 
+/*----------Outline Button--------------*/
 .btn-outline{
     display: inline-block;
     text-decoration: none;
@@ -44,6 +45,7 @@
     transform: scale(1.01);
 }
 
+/*----------Link Button--------------*/
 .btn-link{
    color: var(--btn-black);
    font-size: large;
@@ -53,6 +55,7 @@
     color: var(--btn-violet-dark);  
 }
 
+/*----------Icon Button--------------*/
 .btn-icon{
     background: transparent;
     border: transparent;
@@ -80,16 +83,21 @@
     background-color: var(--btn-violet-light);
 }
 
+/*----------Floating Button--------------*/
 .button-floating{
     background: transparent;
     border: transparent;
     color: var(--btn-violet-light);
     cursor: pointer;
+    z-index: 1;
 }
 
 .button-floating:hover{
     transform: scale(1.1)
 }
+
+
+
 
 .btn-large{
     width: 10rem;

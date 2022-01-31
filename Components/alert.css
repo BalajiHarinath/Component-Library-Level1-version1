@@ -1,18 +1,18 @@
 :root{
-    --alert-primary-bg : rgb(101, 229, 252);
-    --alert-primary-text : blue;
+    --alert-primary-bg : #65e5fc;
+    --alert-primary-text : #0000ff;
 
-    --alert-secondary-bg : rgb(223, 217, 217);
-    --alert-secondary-text : rgb(116, 113, 113);
+    --alert-secondary-bg : #dfd9d9;
+    --alert-secondary-text : #747171;
 
-    --alert-success-bg : rgb(186, 235, 186);
-    --alert-success-text : green;
+    --alert-success-bg : #baebba;
+    --alert-success-text : #008000;
 
-    --alert-danger-bg : rgb(250, 184, 184);
-    --alert-danger-text : red;
+    --alert-danger-bg : #fab8b8;
+    --alert-danger-text : #ff0000;
 
-    --alert-warning-bg : rgb(248, 248, 186);
-    --alert-warning-text : rgb(133, 133, 5);
+    --alert-warning-bg : #f8f8ba;
+    --alert-warning-text : #858505;
 
 }
 
