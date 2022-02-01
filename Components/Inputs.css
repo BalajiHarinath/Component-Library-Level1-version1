@@ -1,0 +1,13 @@
+.input-email,.input-pwd{
+    margin: 2rem 2rem;
+}
+
+.input-email-text,.input-pwd-text{
+    padding: 0.5rem 0.5rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.input-email-msg,.input-pwd-msg{
+    font-size: small;
+}

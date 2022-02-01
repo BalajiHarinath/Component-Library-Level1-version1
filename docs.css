@@ -43,6 +43,11 @@ html{
 .inline-list{
     display: flex;
 }
+.fixed-position{
+    position: fixed;
+    bottom: 2rem;
+    right: 3rem;
+}
 /**/
 
 .grid-container-pagelayout{
