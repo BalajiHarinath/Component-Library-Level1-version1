@@ -6,6 +6,10 @@
     --card-box-shadow :  1px 4px 10px 1px #3b3f4266; 
 }
 
+/*reset for card-component images*/
+.card-text-container img{
+    object-fit: contain;
+}
 
 /*--------Utilities--------*/
 .card-rating{
@@ -60,7 +64,6 @@
 
 .card-btn-close:hover{
     font-size: large;
-    /* transform: scale(1.01); */
 }
 
 
@@ -113,7 +116,6 @@
 
 /*----------Horizontal card-----------*/
 .card-horizontal{
-    /* max-width: 550px; */
     max-width: 34rem;
 }
 
@@ -125,7 +127,6 @@
 .card-img-hz{
     width: 100%;
     height: 100%;
-    object-fit: contain;
 }
 
 
@@ -140,7 +141,6 @@
     align-self: center;
     max-width: 21.875rem;
     max-height: 37.5rem;
-    object-fit: contain;
 }
 
 
@@ -154,7 +154,6 @@
     height: 80%;
     max-width: 21.875rem;
     max-height: 37.5rem;
-    object-fit: contain;
 }
 
 .card-text-overlay{

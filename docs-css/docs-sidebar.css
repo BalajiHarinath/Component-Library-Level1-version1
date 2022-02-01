@@ -1,5 +1,4 @@
 .sidebar{
-    /* grid-area: "sidebar"; */
     grid-row-start: 2/3;
     padding: 2rem 1rem;
     overflow-y: auto;

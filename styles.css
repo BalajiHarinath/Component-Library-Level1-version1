@@ -15,30 +15,30 @@
 	grid-row: 4/5;
 }
 
-.text-container,.home-image{
+.text-container, .home-image{
 	margin: 5rem 3rem 3rem 3rem;
 }
 
-.installation-text,.home-snippet{
+.installation-text, .home-snippet{
 	margin: 0rem 5rem 3rem 3rem;
 }
 
-.text-container,.installation-text{
+.text-container, .installation-text{
 	grid-column: 1/2;
 }
 
-.home-image,.home-snippet{
+.home-image, .home-snippet{
 	grid-column: 2/3;
 	margin-bottom: 5rem;
 }
 
-.text-container h2,.installation-text h3{	
+.text-container h2, .installation-text h3{	
 	color: var(--text-color1);
 	font-size: xx-large;
 	margin-bottom: 2rem;
 }
 
-.text-container p,.installation-text p{	
+.text-container p, .installation-text p{	
 	color: var(--text-color2);
 	font-size: x-large;
 	margin-bottom: 2rem;
