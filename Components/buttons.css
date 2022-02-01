@@ -1,0 +1,119 @@
+:root{
+    --btn-violet-dark : #810781;
+    --btn-violet-light: #913b91;
+    --btn-solid-hover-bg : #b40ab4;
+    --btn-white : #ffffff;
+    --btn-black : #000000;
+    --btn-box-shadow : 1px 4px 10px 1px #3b3f4266;
+}
+/*---------Solid Button-----------*/
+.btn-solid{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    outline: none;
+    background: var(--btn-violet-dark);
+    color: var(--btn-white);
+    cursor: pointer;
+    border: none;
+    box-shadow: var(--btn-box-shadow);
+    border-radius: 6px;
+}
+
+.btn-solid:hover{
+    background: var(--btn-solid-hover-bg);
+    transform: scale(1.02);
+}
+
+/*----------Outline Button--------------*/
+.btn-outline{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    outline: none;
+    background: var(--btn-white);
+    color: var(--btn-violet-dark);
+    cursor: pointer;
+    border: 2px solid var(--btn-violet-dark) ;
+    box-shadow: var(--btn-box-shadow);
+    border-radius: 6px;
+}
+
+.btn-outline:hover{
+    background: var(--btn-violet-dark);
+    color: var(--btn-white);
+    transform: scale(1.01);
+}
+
+/*----------Link Button--------------*/
+.btn-link{
+   color: var(--btn-black);
+   font-size: large;
+}
+
+.btn-link:hover{
+    color: var(--btn-violet-dark);  
+}
+
+/*----------Icon Button--------------*/
+.btn-icon{
+    background: transparent;
+    border: transparent;
+    font-size: large;
+    color: var(--btn-violet-dark);
+    cursor: pointer;
+}
+
+.btn-icon:hover{
+    color: var(--btn-violet-light);
+}
+
+.btn-icon-text{
+    background: transparent;
+    border: transparent;
+    font-size: medium;
+    padding: 0.5rem 1rem;
+    background-color: var(--btn-violet-dark);
+    color: var(--btn-white);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-icon-text:hover{
+    background-color: var(--btn-violet-light);
+}
+
+/*----------Floating Button--------------*/
+.button-floating{
+    background: transparent;
+    border: transparent;
+    color: var(--btn-violet-light);
+    cursor: pointer;
+    position: static;
+    z-index: 2;
+}
+
+.button-floating:hover{
+    transform: scale(1.1)
+}
+
+
+
+
+.btn-large{
+    width: 10rem;
+    height: 4rem;
+    font-size: large;
+}
+
+.btn-medium{
+    width: 8rem;
+    height: 3rem;
+    font-size: medium;
+}
+
+.btn-small{
+    width: 4rem;
+    height: 2rem;
+    font-size: small;
+}

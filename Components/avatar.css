@@ -1,34 +1,34 @@
 .img-round-xl{
-    width: 200px;
-    height: 200px;
+    width: 12.5rem;
+    height: 12.5rem;
     object-fit: cover;
     border-radius: 50%;
 }
 
 .img-round-l{
-    width: 150px;
-    height: 150px;
+    width: 9.375rem;
+    height: 9.375rem;
     object-fit: cover;
     border-radius: 50%;
 }
 
 .img-round-m{
-    width: 100px;
-    height: 100px;
+    width: 6.25rem;
+    height: 6.25rem;
     object-fit: cover;
     border-radius: 50%;
 }
 
 .img-round-s{
-    width: 70px;
-    height: 70px;
+    width: 4.375rem;
+    height: 4.375rem;
     object-fit: cover;
     border-radius: 50%;
 }
 
 .img-round-xs{
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
     object-fit: cover;
     border-radius: 50%;
 }

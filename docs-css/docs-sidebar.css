@@ -35,3 +35,8 @@
     transition: all 0.3s ease-in-out;
     transform: translateX(10px);
 }
+
+/*-------Sidebar-responsive------*/
+.sidebar-opening-button{
+    display: none;
+}
