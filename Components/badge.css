@@ -8,6 +8,12 @@
     --badge-text-color : #ffffff;
 }
 
+/*reset for badge-component images*/
+.avatar-image img{
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 /*------------ Badge on avatar--------------*/
 .badge-on-avatar-xl{
     height: 12.5rem;
@@ -60,41 +66,31 @@
 .imgb-round-xl{
     width: 12.5rem;
     height: 12.5rem;
-    object-fit: cover;
-    border-radius: 50%;
 }
 
 .imgb-round-l{
     width:  9.375rem;
     height:  9.375rem;
-    object-fit: cover;
-    border-radius: 50%;
 }
 
 .imgb-round-m{
     width: 6.25rem;
     height: 6.25rem;
-    object-fit: cover;
-    border-radius: 50%;
 }
 
 .imgb-round-s{
     width:  4.375rem;
     height:  4.375rem;
-    object-fit: cover;
-    border-radius: 50%;
 }
 
 .imgb-round-xs{
     width: 3.125rem;
-    height: 3.125rem;
-    object-fit: cover;
-    border-radius: 50%;
+    height: 3.125rem;  
 }
 
 /*---------------Badge with text and icons---------------*/
 
-.badge-with-text,.badge-with-icon{
+.badge-with-text, .badge-with-icon{
     display: flex;
     position: relative;
     padding: 2rem;
@@ -107,15 +103,15 @@
     border-radius: 50%;
 }
 
-.text-small,.icon-small{
+.text-small, .icon-small{
     font-size: small;
 }
 
-.text-large,.icon-large{
+.text-large, .icon-large{
     font-size: large;
 }
 
-.icon-small,.icon-large{
+.icon-small, .icon-large{
     background: transparent;
     border: transparent;
     cursor: pointer;

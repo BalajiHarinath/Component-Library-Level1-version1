@@ -80,7 +80,7 @@
 } 
 
 /*Aatar customization*/
-.avatar-image,.button-solid,.button-outline,.button-link,.action-container{
+.avatar-image, .button-solid, .button-outline, .button-link, .action-container{
     margin: 2rem 1rem;
     display: flex;
     flex-flow: row wrap;
@@ -90,7 +90,7 @@
 }
 
 /*Badge customization*/
-.badge-text,.card-text-container{
+.badge-text, .card-text-container{
     margin: 2rem 2rem;
     display: flex;
     flex-direction: column;

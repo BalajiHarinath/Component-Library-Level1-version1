@@ -43,15 +43,14 @@ html{
 .inline-list{
     display: flex;
 }
+.fixed-position{
+    position: fixed;
+    bottom: 2rem;
+    right: 3rem;
+}
 /**/
 
 .grid-container-pagelayout{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    /* grid-template-areas: 
-                "header header header header header"
-                "sidebar main main main main"
-                "sidebar main main main main"
-                "sidebar main main main main"
-                "footer footer footer footer footer"; */
 }

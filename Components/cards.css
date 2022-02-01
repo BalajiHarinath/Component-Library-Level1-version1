@@ -1,0 +1,167 @@
+:root{
+    --card-violet : #973a99;
+    --card-gray : #808080;
+    --card-orange : #ffa500;
+    --card-white : #ffffff;
+    --card-box-shadow :  1px 4px 10px 1px #3b3f4266; 
+}
+
+/*reset for card-component images*/
+.card-text-container img{
+    object-fit: contain;
+}
+
+/*--------Utilities--------*/
+.card-rating{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.card-rating-stars{
+    color: var(--card-orange);
+}
+
+.card-review{
+    font-size: medium;
+    color: var(--card-gray);
+}
+
+.card-price{
+    font-size: medium;
+    display: flex;
+    gap: 2rem;
+}
+
+.price-strike{
+    color: var(--card-gray);
+    text-decoration: line-through
+}
+
+.card-text p{
+    color: var(--card-gray);
+    font-size: small;
+}
+
+.card-badge{
+    background: var(--card-violet);
+    color: var(--card-white);
+    padding: 6px;
+    width: fit-content;
+    border-radius: 3px;
+}
+
+.card-btn-close{
+    background: transparent;
+    border: transparent;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-weight: bold;
+    font-size: medium;
+    color: var(--card-violet);
+    cursor: pointer;
+}
+
+.card-btn-close:hover{
+    font-size: large;
+}
+
+
+/*********/
+.card-text-only{
+    position: relative;
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--card-white);
+    gap: 0.5rem;
+    box-shadow: var(--card-box-shadow);
+}
+
+.card-text-only h3{
+    color: var(--card-gray);
+    padding: 0;
+    border: none;
+}
+
+.card-grid{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    background-color: var(--card-white);
+    box-shadow: var(--card-box-shadow);
+}
+
+.card-bi-container{
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-grid-text-only{
+    grid-column: 2/3;
+    position: relative;
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--card-white);
+    gap: 0.5rem;
+}
+
+.card-grid-text-only h3{
+    color: var(--card-gray);
+    padding: 0;
+    border: none;
+}
+
+
+/*----------Horizontal card-----------*/
+.card-horizontal{
+    max-width: 34rem;
+}
+
+.card-btn-container-hz{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-img-hz{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*-----------Vertical card---------------*/
+.card-vertical{
+    max-width: 18.75rem;
+}
+
+.card-img-vt{
+    width: 80%;
+    height: 80%;
+    align-self: center;
+    max-width: 21.875rem;
+    max-height: 37.5rem;
+}
+
+
+/*---------Card with text overlay---------*/
+.card-overlay{
+    max-width: 18.75rem;
+}
+
+.card-img-overlay{
+    width: 80%;
+    height: 80%;
+    max-width: 21.875rem;
+    max-height: 37.5rem;
+}
+
+.card-text-overlay{
+    position: relative;
+}
+
+.card-text-overlay div{
+    position: absolute;
+    top: 0;
+    left: 0;
+} 

@@ -1,7 +1,6 @@
 .nav-bar{
-    /* grid-area: "header"; */ 
     grid-column: 1/-1;
-    grid-row:2/-2;
+    grid-row: 2/-2;
     display: flex;
     padding: 3rem 12rem 3rem 2rem; 
     width: 100vw;
@@ -29,7 +28,6 @@
 }
 
 .nav-bar-logo{
-   
     text-align: right;
     color: var(--primary-color);
 }
