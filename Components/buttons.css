@@ -89,7 +89,8 @@
     border: transparent;
     color: var(--btn-violet-light);
     cursor: pointer;
-    z-index: 1;
+    position: static;
+    z-index: 2;
 }
 
 .button-floating:hover{
