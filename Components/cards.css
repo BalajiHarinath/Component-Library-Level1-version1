@@ -116,7 +116,7 @@
 
 /*----------Horizontal card-----------*/
 .card-horizontal{
-    max-width: 34rem;
+    max-width: 35rem;
 }
 
 .card-btn-container-hz{
@@ -132,7 +132,7 @@
 
 /*-----------Vertical card---------------*/
 .card-vertical{
-    max-width: 18.75rem;
+    max-width: 20rem;
 }
 
 .card-img-vt{
@@ -146,7 +146,7 @@
 
 /*---------Card with text overlay---------*/
 .card-overlay{
-    max-width: 18.75rem;
+    max-width: 20rem;
 }
 
 .card-img-overlay{

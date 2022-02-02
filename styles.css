@@ -72,3 +72,37 @@
 	justify-content: center;
 	align-items: center;
 }
+
+/*-----------Media-Query-------------*/
+
+@media screen and (max-width: 1024px) {
+
+	.home-page-grid-layout{
+		display: grid;
+		grid-template-columns: 100%;
+	}
+
+	.nav-bar{
+		grid-column: 1/-1;
+	}
+
+	.text-container{
+		grid-column: 1/-1;
+	}
+
+	.home-image{
+		display: none;
+	}
+
+	.installation-text{
+		grid-column: 1/-1;
+	}
+
+	.home-snippet{
+		grid-column: 1/-1;
+	}
+
+	.footer-home{
+		grid-row: 5/6;
+	}
+}

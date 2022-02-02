@@ -28,8 +28,12 @@
 
         <!-- Side bar -->
         <aside class="sidebar">
-            <div>
-                <h3>Components</h3>
+            <div class="sidebar-opening-button">
+                <h2 class="sidebar-title">Components</h2>
+                <button class="sidebar-arrow"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+            </div>
+            <div class="sidebar-display">
+                <h3 class="header-hide">Components</h3>
                 <ul class="list-style-none sidebar-ul">
                     <li class="sidebar-list-item"><a href="#Alert">Alert</a></li>
                     <li class="sidebar-list-item"><a href="#Avatar">Avatar</a></li>
@@ -42,6 +46,7 @@
                     <li class="sidebar-list-item"><a href="#Snackbar">Snackbar</a></li>
                 </ul>
             </div>
+           
         </aside>
 
         <!-- Main Section -->
@@ -325,13 +330,14 @@
                         <div class="button-link">
                             <a href="/" class="btn-link">Link-button</a>
                             <button class="btn-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
-                            <button class="btn-icon-text"><i class="fa fa-shopping-cart" aria-hidden="true">Add to
-                                    Cart</i></button>
+                            <button class="btn-icon-text"><span class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>Add to
+                                    Cart</button>
                         </div>
                     </div>
                     <div class="code-snippet">
-                        <iframe class="code-snippet-iframe"
-                            src="https://carbon.now.sh/embed?bg=rgba%28151%2C58%2C153%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522%252F%2522%2520class%253D%2522btn-link%2522%253ELink-button%253C%252Fa%253E%250A%250A%253Cbutton%2520class%253D%2522btn-icon%2522%253E%250A%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn-icon-text%2522%253E%250A%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2522%2520aria-hidden%253D%2522true%2522%253E%250AAdd%2520to%2520Cart%253C%252Fi%253E%253C%252Fbutton%253E"
+                        <iframe
+                            class="code-snippet-iframe"
+                            src="https://carbon.now.sh/embed?bg=rgba%28151%2C58%2C153%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522%252F%2522%2520class%253D%2522btn-link%2522%253ELink-button%253C%252Fa%253E%250A%250A%253Cbutton%2520class%253D%2522btn-icon%2522%253E%250A%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn-icon-text%2522%253E%253Cspan%2520class%253D%2522cart-icon%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fspan%253EAdd%2520to%2520Cart%250A%253C%252Fbutton%253E"
                             sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
@@ -480,8 +486,8 @@
                                             sportswear.</p>
                                     </div>
                                     <div class="card-btn-container-hz">
-                                        <button class="btn-icon-text"><i class="fa fa-shopping-cart">Add to
-                                                Cart</i></button>
+                                        <button class="btn-icon-text"><span class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>Add to
+                                                Cart</button>
                                         <button class="btn-outline btn-medium">Add to wishlist</button>
                                     </div>
                                     <button class="card-btn-close">X</button>
@@ -492,7 +498,7 @@
                     <div class="code-snippet">
                         <iframe
                             class="code-snippet-iframe"
-                            src="https://carbon.now.sh/embed?bg=rgba%28151%2C58%2C153%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-text-container%2520card-horizontal%2522%253E%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522card-grid%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-bi-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253EBest%2520Seller%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img-hz%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fcdn.pixabay.com%252Fphoto%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F2017%252F09%252F07%252F04%252F54%252F%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520khaki-2723896_960_720.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522image%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-grid-text-only%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%253ENike%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%253EJacket%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-rating%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-rating-stars%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-review%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E257%2520reviews%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ERs.%25203500%252F-%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522price-strike%2522%253ERs.%25203999%252F-%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%2520There%2520is%2520no%2520better%2520brand%2520than%2520Nike%2520-%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520known%2520for%2520its%2520functional%2520athleisure%2520and%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520sportswear.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn-container-hz%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-icon-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2522%253EAdd%2520to%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Cart%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-outline%2520btn-medium%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520wishlist%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn-close%2522%253EX%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            src="https://carbon.now.sh/embed?bg=rgba%28151%2C58%2C153%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-text-container%2520card-horizontal%2522%253E%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522card-grid%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-bi-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253EBest%2520Seller%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img-hz%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fcdn.pixabay.com%252Fphoto%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F2017%252F09%252F07%252F04%252F54%252F%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520khaki-2723896_960_720.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522image%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-grid-text-only%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%253ENike%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%253EJacket%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-rating%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-rating-stars%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-review%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E257%2520reviews%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ERs.%25203500%252F-%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522price-strike%2522%253ERs.%25203999%252F-%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%2520There%2520is%2520no%2520better%2520brand%2520than%2520Nike%2520-%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520known%2520for%2520its%2520functional%2520athleisure%2520and%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520sportswear.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn-container-hz%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-icon-text%2522%253E%253Cspan%2520class%253D%2522cart-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2522%2520aria-hidden%253D%2522true%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%253C%252Fspan%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-outline%2520btn-medium%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520wishlist%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn-close%2522%253EX%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
                             sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
@@ -530,7 +536,8 @@
                                         sportswear.</p>
                                 </div>
                                 <div class="card-btn-container-hz">
-                                    <button class="btn-icon-text"><i class="fa fa-shopping-cart">Add to Cart</i></button>
+                                    <button class="btn-icon-text"><span class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>Add to
+                                        Cart</button>
                                     <button class="btn-outline btn-medium">Add to wishlist</button>
                                 </div>
                                 <button class="card-btn-close">X</button>
@@ -540,9 +547,9 @@
                     <div class="code-snippet">
                         <iframe
                             class="code-snippet-iframe"
-                            src="https://carbon.now.sh/embed?bg=rgba%28151%2C58%2C153%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-text-container%2520card-vertical%2522%253E%250A%2520%253Cdiv%2520class%253D%2522card-text-only%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253EBest%2520Seller%253C%252Fdiv%253E%250A%2520%2520%253Cimg%2520class%253D%2522card-img-vt%2522%250A%2520%2520%2520src%253D%2522https%253A%252F%252Fcdn.pixabay.com%252Fphoto%250A%2520%2520%2520%252F2017%252F09%252F07%252F04%252F54%252Fkhaki-2723896_960_720.jpg%2522%250A%2520%2520%2520alt%253D%2522image%2522%2520%252F%253E%250A%2520%2520%253Ch3%253ENike%253C%252Fh3%253E%250A%2520%2520%253Ch2%253EJacket%253C%252Fh2%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-rating%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-rating-stars%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-review%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E257%2520reviews%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253ERs.%25203500%252F-%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522price-strike%2522%253ERs.%25203999%252F-%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%253Cp%253E%2520There%2520is%2520no%2520better%2520brand%2520than%2520Nike%2520-%2520%250A%2520%2520%2520%2520%2520%2520known%2520for%2520its%2520functional%2520athleisure%2520and%250A%2520%2520%2520%2520%2520%2520sportswear.%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-btn-container-hz%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-icon-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2522%253EAdd%2520to%2520Cart%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-outline%2520btn-medium%2522%253E%250A%2520%2520%2520%2520%2520%2520Add%2520to%2520wishlist%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cbutton%2520class%253D%2522card-btn-close%2522%253EX%253C%252Fbutton%253E%250A%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            src="https://carbon.now.sh/embed?bg=rgba%28151%2C58%2C153%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-text-container%2520card-vertical%2522%253E%250A%2520%253Cdiv%2520class%253D%2522card-text-only%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253EBest%2520Seller%253C%252Fdiv%253E%250A%2520%2520%253Cimg%2520class%253D%2522card-img-vt%2522%250A%2520%2520%2520src%253D%2522https%253A%252F%252Fcdn.pixabay.com%252Fphoto%250A%2520%2520%2520%252F2017%252F09%252F07%252F04%252F54%252Fkhaki-2723896_960_720.jpg%2522%250A%2520%2520%2520alt%253D%2522image%2522%2520%252F%253E%250A%2520%2520%253Ch3%253ENike%253C%252Fh3%253E%250A%2520%2520%253Ch2%253EJacket%253C%252Fh2%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-rating%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-rating-stars%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-review%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E257%2520reviews%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253ERs.%25203500%252F-%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522price-strike%2522%253ERs.%25203999%252F-%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%253Cp%253E%2520There%2520is%2520no%2520better%2520brand%2520than%2520Nike%2520-%2520%250A%2520%2520%2520%2520%2520%2520known%2520for%2520its%2520functional%2520athleisure%2520and%250A%2520%2520%2520%2520%2520%2520sportswear.%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-btn-container-hz%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-icon-text%2522%253E%253Cspan%2520class%253D%2522cart-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2522%2520aria-hidden%253D%2522true%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%253C%252Fspan%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-outline%2520btn-medium%2522%253E%250A%2520%2520%2520%2520%2520%2520Add%2520to%2520wishlist%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cbutton%2520class%253D%2522card-btn-close%2522%253EX%253C%252Fbutton%253E%250A%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
                             sandbox="allow-scripts allow-same-origin">
-                      </iframe>
+                        </iframe>
                     </div>
                 </article>
                 <!-- Card with text overlay -->
@@ -582,7 +589,8 @@
                                         sportswear.</p>
                                 </div>
                                 <div class="card-btn-container-hz">
-                                    <button class="btn-icon-text"><i class="fa fa-shopping-cart">Add to Cart</i></button>
+                                    <button class="btn-icon-text"><span class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>Add to
+                                        Cart</button>
                                     <button class="btn-outline btn-medium">Add to wishlist</button>
                                 </div>
                                 <button class="card-btn-close">X</button>
@@ -592,9 +600,9 @@
                     <div class="code-snippet">
                         <iframe
                             class="code-snippet-iframe"
-                            src="https://carbon.now.sh/embed?bg=rgba%28151%2C58%2C153%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522card-text-only%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253EBest%2520Seller%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-text-overlay%2520card-overlay%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img-overlay%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fcdn.pixabay.com%252Fphoto%252F%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%25202017%252F09%252F07%252F04%252F54%252F%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520khaki-2723896_960_720.jpg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522image%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253ENike%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EJacket%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-rating%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-rating-stars%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-review%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E257%2520reviews%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%2520%253Cp%253ERs.%25203500%252F-%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522price-strike%2522%253ERs.%25203999%252F-%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%253Cp%253E%2520There%2520is%2520no%2520better%2520brand%2520than%2520Nike%2520-%2520%250A%2520%2520%2520%2520%2520%2520known%2520for%2520its%2520functional%2520athleisure%2520and%250A%2520%2520%2520%2520%2520%2520sportswear.%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-btn-container-hz%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-icon-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2522%253EAdd%2520to%2520Cart%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-outline%2520btn-medium%2522%253E%250A%2520%2520%2520%2520%2520%2520Add%2520to%2520wishlist%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cbutton%2520class%253D%2522card-btn-close%2522%253EX%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                            src="https://carbon.now.sh/embed?bg=rgba%28151%2C58%2C153%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-text-only%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253EBest%2520Seller%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-text-overlay%2520card-overlay%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img-overlay%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fcdn.pixabay.com%252Fphoto%252F%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%25202017%252F09%252F07%252F04%252F54%252F%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520khaki-2723896_960_720.jpg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522image%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253ENike%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EJacket%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-rating%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-rating-stars%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-review%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E257%2520reviews%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%2520%253Cp%253ERs.%25203500%252F-%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522price-strike%2522%253ERs.%25203999%252F-%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%253Cp%253E%2520There%2520is%2520no%2520better%2520brand%2520than%2520Nike%2520-%2520%250A%2520%2520%2520%2520%2520%2520known%2520for%2520its%2520functional%2520athleisure%2520and%250A%2520%2520%2520%2520%2520%2520sportswear.%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-btn-container-hz%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-icon-text%2522%253E%253Cspan%2520class%253D%2522cart-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2522%2520aria-hidden%253D%2522true%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%253C%252Fspan%253EAdd%2520to%2520Cart%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-outline%2520btn-medium%2522%253E%250A%2520%2520%2520%2520%2520%2520Add%2520to%2520wishlist%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cbutton%2520class%253D%2522card-btn-close%2522%253EX%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
                             sandbox="allow-scripts allow-same-origin">
-                      </iframe>
+                        </iframe>
                     </div>
                 </article>
                 <div class="break-inter"></div>
@@ -609,36 +617,42 @@
                     <p>An Image is a pictorial depection of any object or an item.</p>
                 </header>
                 <div class="break-intra"></div>
+
+                <!-- Responsive image -->
                 <article class="box">
                     <h3>Responsive Image (Reduce the viewport width to experience the responsiveness - here Resolution switching is used)</h3>
                     <div class="box-content-row">
                         <img class="card-img-overlay"
-                        src="https://cdn.pixabay.com/photo/2017/09/07/04/54/khaki-2723896_960_720.jpg"
-                        srcset="https://pixabay.com/get/ge2ebd3d5bce7abc6cc45d9a1f34b480f387e0b1edddbe1cc815bcb597a33914475bc248185522a9c04a39db7f99a4190d646cf047d7cdb75a47b8e55dbad9b937b1f540faaa84188a90a7fc115d079f8_640.jpg 640w,
-                        https://pixabay.com/get/gc2d0f88e85d02e709b4d77404481b928fd75be33a72fa781f1313bf8802867c5554973c578391c19bb9b71a2f40ef53aa5337b38547606e4cbbbfbd85d076aed6ac28852b74c7ff75650d5ee6e578a28_1280.jpg 1280w"
+                        src="https://picsum.photos/800"
+                        srcset="https://picsum.photos/640 640w,
+                        https://picsum.photos/1000 1000w"
                         sizes="(max-width:600px) 640px,
-                                1280px"
+                                1000px"
                         alt="image" />
                     </div>
                     <div class="code-snippet">
-                        <iframe class="code-snippet-iframe"
-                            src="https://carbon.now.sh/embed?bg=rgba%28151%2C58%2C153%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--HTML%2520code%2520--%253E%250A%253Cdiv%2520class%253D%2522input-email%2522%253E%250A%2520%2520%253Cinput%2520class%253D%2522input-email-text%2522%2520type%253D%2522email%2522%2520placeholder%253D%2522Enter%2520your%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520Email%2522%252F%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn-solid%2520btn-small%2520email-submit%2522%253ESubmit%253C%252Fbutton%253E%250A%2520%2520%253Cp%2520class%253D%2522input-email-msg%2522%253E%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                        <iframe
+                            class="code-snippet-iframe"
+                            src="https://carbon.now.sh/embed?bg=rgba%28151%2C58%2C153%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522card-img-overlay%2522%250A%2520%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F800%2522%250A%2520%2520srcset%253D%2522https%253A%252F%252Fpicsum.photos%252F640%2520640w%252C%250A%2520%2520https%253A%252F%252Fpicsum.photos%252F1000%25201000w%2522%250A%2520%2520sizes%253D%2522%28max-width%253A600px%29%2520640px%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%25201000px%2522%250A%2520%2520alt%253D%2522image%2522%2520%252F%253E"
                             sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
                 </article>
+
+                <!-- Round image -->
                 <article class="box">
                     <h3>Round Image</h3>
                     <div class="box-content-row">
                         <div class="input-email">
                             <img class="round-img"
-                            src="https://cdn.pixabay.com/photo/2017/09/07/04/54/khaki-2723896_960_720.jpg"
+                            src="https://picsum.photos/1000"
                             alt="image" />
                         </div>
                     </div>
                     <div class="code-snippet">
-                        <iframe class="code-snippet-iframe"
-                            src="https://carbon.now.sh/embed?bg=rgba%28151%2C58%2C153%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--HTML%2520code%2520--%253E%250A%253Cdiv%2520class%253D%2522input-email%2522%253E%250A%2520%2520%253Cinput%2520class%253D%2522input-email-text%2522%2520type%253D%2522email%2522%2520placeholder%253D%2522Enter%2520your%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520Email%2522%252F%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn-solid%2520btn-small%2520email-submit%2522%253ESubmit%253C%252Fbutton%253E%250A%2520%2520%253Cp%2520class%253D%2522input-email-msg%2522%253E%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                        <iframe
+                            class="code-snippet-iframe"
+                            src="https://carbon.now.sh/embed?bg=rgba%28151%2C58%2C153%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520class%253D%2522round-img%2522%250A%2520%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F1000%2522%250A%2520%2520alt%253D%2522image%2522%2520%252F%253E"
                             sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
@@ -696,6 +710,79 @@
                 <div class="break-inter"></div>
             </div>
 
+             <!-- Navigation -->
+
+            <div class="component" id="Navigation">
+                <header class="component-header">
+                    <h1>Navigation</h1>
+                    <p>A Navigation bar is used to navigate through web pages.</p>
+                </header>
+                <div class="break-intra"></div>
+                <!--navigation bar -->
+                <article class="box">
+                    <h3>Navbar</h3>
+                    <div class="box-content-row">
+                        <div class="topbar-container">
+                            <article class="topbar-article">
+                              <p>My Website</p>
+                              <input type="text" placeholder="Search"/>
+                              <div class="topbar-btn-container">
+                                <button class="btn-tb-login">Login</button>
+                                <div class="badge-with-icon-tb">
+                                    <button class="icon-large">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </button>
+                                    <div class="badge-component badge-icon-small-tb tb-violet-bg">4</div>
+                                </div>
+                                <div class="badge-with-icon-tb">
+                                    <button class="icon-large">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    </button>
+                                    <div class="badge-component badge-icon-small-tb tb-violet-bg">4</div>
+                                </div>
+                              </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="code-snippet">
+                        <iframe class="code-snippet-iframe"
+                            src="https://carbon.now.sh/embed?bg=rgba%28151%2C58%2C153%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522topbar-container%2522%253E%250A%2520%253Carticle%2520class%253D%2522topbar-article%2522%253E%250A%2520%2520%253Cp%253EMy%2520Website%253C%252Fp%253E%250A%2520%2520%253Cinput%2520type%253D%2522text%2522%2520placeholder%253D%2522Search%2522%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522topbar-btn-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-tb-login%2522%253ELogin%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-with-icon-tb%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-large%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart-o%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-component%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520badge-icon-small-tb%2520tb-violet-bg%2522%253E4%250A%2520%2520%2520%2520%2520%2520%2520%2509%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-with-icon-tb%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-large%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-component%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520badge-icon-small-tb%2520tb-violet-bg%2522%253E4%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Farticle%253E%250A%253C%252Fdiv%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </article>
+                <div class="break-inter"></div>
+            </div>
+
+            <!-- Snackbar -->
+
+            <div class="component" id="Snackbar">
+                <header class="component-header">
+                    <h1>Snackbar</h1>
+                    <p>A snackbar is used to show feedback message. Snackbar is to used show message that need user action.</p>
+                </header>
+                <div class="break-intra"></div>
+                <article class="box">
+                    <h3>Snackbar</h3>
+                    <div class="box-content-row">
+                        <div class="snackbar-container">
+                            <article class="snackbar-article">
+                              <p>Order could not be placed. Retry in 5 seconds.</p>
+                              <button class="btn-sb btn-sb-retry">retry</button>
+                              <button class="btn-sb btn-sb-close">x</button>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="code-snippet"> 
+                        <iframe class="code-snippet-iframe"
+                            src="https://carbon.now.sh/embed?bg=rgba%28151%2C58%2C153%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Carticle%2520class%253D%2522snackbar-article%2522%253E%250A%2520%2520%253Cp%253EOrder%2520could%2520not%2520be%2520placed.%250A%2520%2520%2520%2520Retry%2520in%25205%2520seconds.%253C%252Fp%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn-sb%2520btn-sb-retry%2522%253E%250A%2520%2520%2520%2520retry%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn-sb%2520btn-sb-close%2522%253E%250A%2520%2520%2520%2520x%253C%252Fbutton%253E%250A%253C%252Farticle%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </article>
+                <div class="break-inter"></div>
+            </div>
+
 
         </section>
 
@@ -720,9 +807,8 @@
         hljs.highlightAll();
     </script>
     <script src="Components/components.js"></script>
+    <script src="docs.js"></script>
 </body>
 
 </html>
 
-
-<!-- <a style="position:absolute;left:-9999px" rel="license" about="https://cdn.pixabay.com/photo/2017/09/07/04/54/khaki-2723896_960_720.jpg" href="https://creativecommons.org/licenses/publicdomain/">Public Domain</a> -->

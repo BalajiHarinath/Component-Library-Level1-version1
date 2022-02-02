@@ -84,6 +84,11 @@
     background-color: var(--btn-violet-light);
 }
 
+.cart-icon{
+    padding-right: 1rem;
+}
+
+
 /*----------Floating Button--------------*/
 .button-floating{
     background: transparent;

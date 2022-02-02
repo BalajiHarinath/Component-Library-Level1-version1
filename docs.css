@@ -33,6 +33,12 @@ html{
 
     --text-color1: #3a3939;
     --text-color2 : #535252;
+
+    /*Media query variables*/
+    --sidebar-bg : #e6e6e6;
+    --float-btn-mobile-screen : #f5d69c;
+
+
 }
 
 /**/
@@ -53,4 +59,91 @@ html{
 .grid-container-pagelayout{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+/*-----------Media-Query-------------*/
+
+@media screen and (max-width:1024px) {
+
+    .grid-container-pagelayout{
+        display: grid;
+        grid-template-columns: 100%;   
+    }
+
+    .nav-bar{
+        padding: 3rem 2rem 3rem 2rem; 
+    }
+
+    .sidebar{
+        grid-column: 1/-1;
+        height: fit-content;
+    }
+
+    .main{
+        grid-column: 1/-1;
+    }
+
+    /*Sidebar styling*/
+    
+    .sidebar{
+        z-index: 2;   /* To avoid overlapping of main component on the sidebar-opening-button div */
+    }
+    .sidebar-opening-button{
+        padding: 1rem 2rem;
+        display: flex;
+        background-color: var(--sidebar-bg);    
+    }
+
+    .sidebar-display{
+        display: none;
+    }
+
+    .header-hide{
+        display: none;
+    }
+
+    .sidebar{
+        padding: 0;
+    }
+
+    .sidebar-title{
+        font-size: large;
+        flex: 1;
+    }
+
+    .sidebar-arrow{
+        background: transparent;
+        border: transparent;
+        cursor: pointer;
+        transition: 0.2s ease;
+    }
+
+    .sidebar-active{
+        display: block;
+        align-items: center;
+        background-color:  var(--sidebar-bg);
+        overflow-y: hidden;
+        height: calc(100vh - 3.3rem); /*Subtracting the height of sidebar-opening-button div*/
+    }
+
+    .sidebar-arrow-rotate{
+        transform: rotate(180deg);
+    }
+
+
+    /*--------End of side bar---------*/
+
+    .main-hide{
+        display: none;
+    }
+
+    .footer-hide{
+        display: none;
+    }
+
+    .floating-btn-mobile-screen{
+        color: var(--float-btn-mobile-screen);
+    }
+
 }
