@@ -1,0 +1,43 @@
+:root{
+  --snackbar-gray : #2c2c2c;
+  --snackbar-violet: #a558ec;
+  --snackbar-white : #ffffff;
+  --snackbar-box-shadow :  1px 4px 10px 1px #3b3f4266;
+}
+
+.snackbar-container {
+    margin: 2rem 2rem;
+    width: 30rem;
+    border-radius: 0.2rem;
+    box-shadow: var(--snackbar-box-shadow);
+  }
+
+  .snackbar-article {
+    display: flex;
+    justify-content: center;
+    background-color: var(--snackbar-gray);
+    color: var(--snackbar-white);
+    border-radius: inherit;
+    padding: 1rem 1rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .btn-sb {
+    background: transparent;
+    border: transparent;
+    cursor: pointer;
+  }
+
+  .btn-sb-retry {
+    text-transform: uppercase;
+    color: var(--snackbar-violet);
+    font-weight: 1rem;
+    font-size: 1rem;
+  }
+
+  .btn-sb-close {
+    color: var(--snackbar-white);
+    font-weight: 1rem;
+    font-size: 1.5rem;
+  }

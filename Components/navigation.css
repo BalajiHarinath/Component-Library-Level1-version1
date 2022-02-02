@@ -1,0 +1,67 @@
+:root{
+    --nav-violet : #973a99;
+    --nav-white : #ffffff;
+}
+
+.topbar-container{
+    margin: 2rem 1rem;
+    width: 90%;
+}
+
+.topbar-article{
+    display: flex;
+    align-items: center;
+    background: var(--nav-white);
+    padding: 0rem 1rem;
+    border: 1px solid var(--nav-violet);
+}
+
+.topbar-article p{
+    flex-grow: 2;
+    margin: 1rem 0rem;
+}
+
+.topbar-article input{
+    flex-grow: 1;
+    padding: 4px 4px;
+    margin: 1rem 0rem;
+}
+
+.topbar-btn-container{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-self: stretch;
+    gap: 2rem;
+}
+
+.badge-with-icon-tb{
+    padding: 0;
+    height: 100%;
+    position: relative;
+    padding-top: 1rem;
+}
+
+.badge-icon-small-tb{
+    font-size: 10px;
+    color: var(--nav-white);
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    top: 9px;
+    right: 0;
+}
+
+.tb-violet-bg{
+    background-color: var(--nav-violet);
+}
+
+.btn-tb-login{
+    border: transparent;
+    background-color: var(--nav-violet);
+    color: var(--nav-white);
+    align-self: center;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 3px;
+}

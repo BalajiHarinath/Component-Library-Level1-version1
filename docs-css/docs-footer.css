@@ -1,3 +1,7 @@
+:root{
+    --footer-social-icons : #000000;
+}
+
 .footer{
     grid-column: 1/-1;
     display: flex;
@@ -17,7 +21,7 @@
 
 .footer-social-icons a {
 	transition: 0.2s ease;
-    color: black;
+    color: var(--footer-social-icons);
     margin: 1rem;
 }
 
