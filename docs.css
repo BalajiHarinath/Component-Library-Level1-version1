@@ -82,7 +82,6 @@ html{
 
     .main{
         grid-column: 1/-1;
-        width: calc(100vw - 3rem);
     }
 
     /*Sidebar styling*/
