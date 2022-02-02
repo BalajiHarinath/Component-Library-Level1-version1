@@ -1,0 +1,30 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css");
+
+@import url("/Components/alert.css");
+@import url("Components/components.css");
+@import url("Components/alert.css");
+@import url("Components/avatar.css");
+@import url("Components/badge.css");
+@import url("Components/buttons.css");
+@import url("Components/cards.css");
+@import url("Components/Inputs.css");
+@import url("Components/Image.css");
+@import url("Components/navigation.css");
+@import url("Components/snackbar.css");
+
+* {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+	word-wrap: break-word;
+}
+
+:root{
+    --primary-color : rgb(151, 58, 153);
+    --secondary-color : rgb(250, 248, 248); 
+    --box-shadow : 1px 1px 10px 1px rgba(59, 63, 66, 0.4);
+
+    --text-color1: rgb(58, 57, 57);
+    --text-color2 : rgb(83, 82, 82);
+}
