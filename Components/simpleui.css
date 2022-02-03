@@ -1,17 +1,17 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 @import url("//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css");
 
-@import url("/Components/alert.css");
-@import url("Components/components.css");
-@import url("Components/alert.css");
-@import url("Components/avatar.css");
-@import url("Components/badge.css");
-@import url("Components/buttons.css");
-@import url("Components/cards.css");
-@import url("Components/Inputs.css");
-@import url("Components/Image.css");
-@import url("Components/navigation.css");
-@import url("Components/snackbar.css");
+@import "./alert.css";
+@import "./components.css";
+@import "./alert.css";
+@import "./avatar.css";
+@import "./badge.css";
+@import "./buttons.css";
+@import "./cards.css";
+@import "./Inputs.css";
+@import "./Image.css";
+@import "./navigation.css";
+@import "./snackbar.css";
 
 * {
 	margin: 0;
