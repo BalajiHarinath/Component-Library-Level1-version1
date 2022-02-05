@@ -66,6 +66,10 @@ html{
 
 @media screen and (max-width:1024px) {
 
+    body {
+        overflow-x: hidden;
+    }
+
     .grid-container-pagelayout{
         display: grid;
         grid-template-columns: 100%;   
