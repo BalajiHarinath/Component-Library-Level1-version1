@@ -22,17 +22,18 @@
 }
 
 .card-review{
-    font-size: medium;
+    font-size: small;
     color: var(--card-gray);
 }
 
 .card-price{
-    font-size: medium;
+    font-size: 1rem;
     display: flex;
     gap: 2rem;
 }
 
 .price-strike{
+    font-size: small;
     color: var(--card-gray);
     text-decoration: line-through
 }
