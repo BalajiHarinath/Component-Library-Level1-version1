@@ -1,0 +1,61 @@
+:root {
+    --sl-border-color1 : #beb6b6;
+    --sl-text-color : #ada6a6;
+}
+
+/*Ordered list*/
+.ol-list-container, .ul-list-container {
+    margin: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.ol-alpha {
+    list-style: lower-alpha;
+}
+
+.ol-roman {
+    list-style: lower-roman;
+}
+
+/*Unordered list*/
+.ul-square {
+    list-style: square;
+}
+
+.ul-circle {
+    list-style: circle;
+}
+
+.no-bullets {
+    list-style: none;
+}
+
+/*Stacked list*/
+.stacked-list-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.stacked-list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid var(--sl-border-color1);
+}
+
+.stacked-list-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.stacked-list-text {
+    font-size: small;
+}
+
+.stacked-list-text-mail {
+    color: var(--sl-text-color);
+}
