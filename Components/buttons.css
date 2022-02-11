@@ -96,7 +96,7 @@
     color: var(--btn-violet-light);
     cursor: pointer;
     position: static;
-    z-index: 2;
+    z-index: 20;
 }
 
 .button-floating:hover{

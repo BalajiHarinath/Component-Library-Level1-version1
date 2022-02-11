@@ -9,7 +9,7 @@
 }
 
 /*reset for badge-component images*/
-.avatar-image img{
+.avatar-img{
     object-fit: cover;
     border-radius: 50%;
 }

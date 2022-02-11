@@ -1,0 +1,20 @@
+.slider {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap : 2rem;
+}
+
+.rating-icon {
+    color: var(--card-orange);
+}
+
+.slider-rating, .slider-volume, .slider-disabled {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.slider-disabled {
+    opacity: 0.7;
+}

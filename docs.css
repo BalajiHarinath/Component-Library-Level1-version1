@@ -9,10 +9,15 @@
 @import url("Components/Image.css");
 @import url("Components/navigation.css");
 @import url("Components/snackbar.css");
+@import url("Components/rating.css");
+@import url("Components/slider.css");
+@import url("Components/modal.css");
+@import url("Components/list.css");
 @import url("docs-css/docs-codeDisplay.css");
 @import url("docs-css/docs-nav.css");
 @import url("docs-css/docs-sidebar.css");
 @import url("docs-css/docs-footer.css");
+
 
 * {
 	margin: 0;
@@ -76,7 +81,7 @@ html{
     }
 
     .nav-bar{
-        padding: 3rem 2rem 3rem 2rem; 
+        padding: 2rem 3rem 2rem 3rem; 
     }
 
     .sidebar{

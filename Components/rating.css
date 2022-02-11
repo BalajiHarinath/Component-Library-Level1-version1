@@ -1,0 +1,16 @@
+.card-rating-stars-1r, .card-rating-stars-1-25r, .card-rating-stars-1-5r{
+    color: var(--card-orange);
+    margin: 2rem;
+}
+
+.rating-star-1 {
+    font-size: 1rem;
+}
+
+.rating-star-1-25 {
+    font-size: 1.25rem;
+}
+
+.rating-star-1-5 {
+    font-size: 1.5rem;
+}
