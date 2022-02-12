@@ -8,12 +8,12 @@
 }
 
 .sidebar h3{
-    padding-left: 1rem;
+    padding-left: 2rem;
     color: var(--text-color1);
 }
 
 .sidebar-ul{
-    padding: 2rem 1rem;
+    padding: 2rem 2rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
