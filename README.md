@@ -4,8 +4,7 @@
 
 <h3>Quick Start</h3>
 
-To start using the components in your project, Copy-paste the below link tag in your ```<head>``` before all other stylesheets to load SimpleUI css
-
+To start using the components in your project, Copy-paste the below link tag in your ```<head>``` before all other stylesheets.
     <link
         rel="stylesheet"
         href="https://simpleui-component-library.netlify.app/Components/simpleui.css"
