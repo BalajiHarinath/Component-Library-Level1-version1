@@ -1,0 +1,98 @@
+:root {
+    --primary-color-text : #973a99;
+    --secondary-color-text : #3b3939; 
+    --tertiary-color-text : #b1abab;
+    --success-color-text : #15a715;
+    --warning-color-text : #eeee03;
+    --error-color-text : #ff0000;
+    --gray-light-text : #948f8f;
+    --gray-dark-text : #585656;
+}
+
+.heading-container, .text-sizes-container, .text-color-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    gap: 2rem;
+}
+
+.text-alignment-container {
+    margin: 2rem;
+    width: 100%;
+}
+
+
+/*text sizes*/
+.txt-3xl {
+    font-size: 2rem;
+}
+
+.txt-2xl {
+    font-size: 1.5rem;
+}
+
+.txt-l {
+    font-size: 1.125rem;
+}
+
+.txt-m {
+    font-size: 1rem;
+}
+
+.txt-s {
+    font-size: 0.875rem;
+}
+
+.txt-xs {
+    font-size: 0.75rem;
+}
+
+
+/*text alignment*/
+.align-left {
+    text-align: left;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right{
+    text-align: right;
+}
+
+
+/*text colors*/
+.color-primary {
+    color: var(--primary-color-text);
+}
+
+.color-secondary {
+   color: var(--secondary-color-text);
+}
+
+.color-tertiary {
+    color: var(--tertiary-color-text);
+}
+
+.color-success {
+    color: var(--success-color-text);
+}
+
+.color-warning {
+    color: var(--warning-color-text);
+}
+
+.color-error {
+    color: var(--error-color-text);
+}
+
+.color-gray-light {
+    color: var(--gray-light-text);
+}
+
+.color-gray-dark {
+    color: var(--gray-dark-text);
+}
+
