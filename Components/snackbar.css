@@ -1,4 +1,7 @@
 :root{
+  --snackbar-success-bg : #05aa05;
+  --snackbar-warning-bg : #eeee3a;
+  --snackbar-failure-bg : #ff0000;
   --snackbar-gray : #2c2c2c;
   --snackbar-violet: #a558ec;
   --snackbar-white : #ffffff;
@@ -6,38 +9,85 @@
 }
 
 .snackbar-container {
-    margin: 2rem 2rem;
-    width: 30rem;
-    border-radius: 0.2rem;
-    box-shadow: var(--snackbar-box-shadow);
-  }
+  margin: 2rem 2rem;
+  width: 20rem;
+  border-radius: 0.2rem;
+  box-shadow: var(--snackbar-box-shadow);
+  z-index: 2;
+}
 
-  .snackbar-article {
-    display: flex;
-    justify-content: center;
-    background-color: var(--snackbar-gray);
-    color: var(--snackbar-white);
-    border-radius: inherit;
-    padding: 1rem 1rem;
-    justify-content: space-between;
-    align-items: center;
-  }
+.snackbar-success, .snackbar-warning, .snackbar-alert {
+  display: flex;
+  justify-content: center;
+  color: var(--snackbar-white);
+  border-radius: inherit;
+  padding: 1rem 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  .btn-sb {
-    background: transparent;
-    border: transparent;
-    cursor: pointer;
-  }
+.snackbar-success {
+  background-color: var(--snackbar-success-bg);
+}
 
-  .btn-sb-retry {
-    text-transform: uppercase;
-    color: var(--snackbar-violet);
-    font-weight: 1rem;
-    font-size: 1rem;
-  }
+.snackbar-warning {
+  background-color: var(--snackbar-warning-bg);
+}
 
-  .btn-sb-close {
-    color: var(--snackbar-white);
-    font-weight: 1rem;
-    font-size: 1.5rem;
-  }
+.snackbar-alert{
+  background-color: var(--snackbar-failure-bg);
+}
+
+.snackbar-text {
+  flex-grow: 1;
+}
+
+.btn-sb {
+  background: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+
+.btn-sb-retry {
+  text-transform: uppercase;
+  color: var(--snackbar-violet);
+  font-weight: 1rem;
+  font-size: 1rem;
+}
+
+.btn-sb-close {
+  color: var(--snackbar-white);
+  font-weight: 1rem;
+  font-size: 1.5rem;
+}
+
+
+/*Live demo*/
+.show-success-toast {
+  display: none;
+}
+
+.show-warning-toast {
+  display: none;
+}
+
+.show-alert-toast {
+  display: none;
+}
+
+.toast-right {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.toast-left {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+
+

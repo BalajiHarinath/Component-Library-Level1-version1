@@ -40,3 +40,63 @@ pwdInput.addEventListener("input",()=>{
         pwdInput.value = "";
     }, 7000);
 })
+
+
+
+//Modal
+const showModal = document.querySelector(".show-modal");
+const modalDemoBtn = document.querySelector("#modal-demo-btn");
+const modalDemoBtnClose = document.querySelector(".modal-demo-btn-close");
+
+modalDemoBtn.addEventListener("click", ()=>{
+    showModal.style.display = "block";
+})
+
+modalDemoBtnClose.addEventListener("click", ()=>{
+    showModal.style.display = "none";
+})
+
+
+//Snackbar
+const showSuccessToast = document.querySelector(".show-success-toast");
+const showWarningToast = document.querySelector(".show-warning-toast");
+const showAlertToast = document.querySelector(".show-alert-toast");
+const closeSuccessToast = document.querySelector(".close-success-toast");
+const closeWarningToast = document.querySelector(".close-warning-toast");
+const closeAlertToast = document.querySelector(".close-alert-toast");
+const toastSuccessBtn = document.querySelector("#toast-success-btn");
+const toastWarningBtn = document.querySelector("#toast-warning-btn");
+const toastAlertBtn = document.querySelector("#toast-alert-btn");
+
+toastSuccessBtn.addEventListener("click", ()=>{
+    showSuccessToast.style.display = "block";
+    setTimeout(() => {
+        showSuccessToast.style.display = "none";
+    }, 5000);
+})
+
+toastWarningBtn.addEventListener("click", ()=>{
+    showWarningToast.style.display = "block";
+    setTimeout(() => {
+        showWarningToast.style.display = "none";
+    }, 5000);
+})
+
+toastAlertBtn.addEventListener("click", ()=>{
+    showAlertToast.style.display = "block";
+    setTimeout(() => {
+        showAlertToast.style.display = "none";
+    }, 5000);
+})
+
+closeSuccessToast.addEventListener("click", ()=>{
+    showSuccessToast.style.display = "none";
+})
+
+closeWarningToast.addEventListener("click", ()=>{
+    showWarningToast.style.display = "none";
+})
+
+closeAlertToast.addEventListener("click", ()=>{
+    showAlertToast.style.display = "none";
+})

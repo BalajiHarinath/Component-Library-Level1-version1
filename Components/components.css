@@ -79,6 +79,24 @@
     overflow:auto;
 } 
 
+.live-demo {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 2rem 0rem;
+    padding: 1rem;
+    border: 1px solid var(--border-color);
+}
+
+.demo-btn-container {
+    display: flex;
+    gap: 1rem;
+}
+
+#modal-demo-btn, #toast-success-btn, #toast-warning-btn, #toast-alert-btn {
+    height: 2rem;
+}
+
 /*Aatar customization*/
 .avatar-image, .button-solid, .button-outline, .button-link, .action-container{
     margin: 2rem 1rem;

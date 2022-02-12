@@ -781,22 +781,74 @@
                 <div class="break-intra"></div>
                 <div class="box">
                     <h3>Snackbar</h3>
-                    <div class="box-content-row">
+                    <div class="box-content-column">
                         <div class="snackbar-container">
-                            <article class="snackbar-article">
-                              <p>Order could not be placed. Retry in 5 seconds.</p>
+                            <div class="snackbar-success">
+                              <p class="snackbar-text">Added to cart successfully.</p>
+                              <button class="btn-sb btn-sb-close">x</button>
+                            </div>
+                        </div>
+                        <div class="snackbar-container">
+                            <div class="snackbar-warning">
+                              <p class="snackbar-text">Order could not be executed.</p>
                               <button class="btn-sb btn-sb-retry">retry</button>
                               <button class="btn-sb btn-sb-close">x</button>
-                            </article>
+                            </div>
+                        </div>
+                        <div class="snackbar-container">
+                            <div class="snackbar-alert">
+                              <p class="snackbar-text">Removed from the cart</p>
+                              <button class="btn-sb btn-sb-close">x</button>
+                            </div>
                         </div>
                     </div>
                     <div class="code-snippet"> 
                         <iframe class="code-snippet-iframe"
-                            src="https://carbon.now.sh/embed?bg=rgba%28151%2C58%2C153%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Carticle%2520class%253D%2522snackbar-article%2522%253E%250A%2520%2520%253Cp%253EOrder%2520could%2520not%2520be%2520placed.%250A%2520%2520%2520%2520Retry%2520in%25205%2520seconds.%253C%252Fp%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn-sb%2520btn-sb-retry%2522%253E%250A%2520%2520%2520%2520retry%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn-sb%2520btn-sb-close%2522%253E%250A%2520%2520%2520%2520x%253C%252Fbutton%253E%250A%253C%252Farticle%253E"
+                            src="https://carbon.now.sh/embed?bg=rgba%28151%2C58%2C153%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522snackbar-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522snackbar-success%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522snackbar-text%2522%253EAdded%2520to%2520cart%2520successfully.%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-sb%2520btn-sb-close%2522%253Ex%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522snackbar-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522snackbar-warning%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522snackbar-text%2522%253EOrder%2520could%2520not%2520be%2520executed.%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-sb%2520btn-sb-retry%2522%253Eretry%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-sb%2520btn-sb-close%2522%253Ex%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522snackbar-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522snackbar-alert%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522snackbar-text%2522%253ERemoved%2520from%2520the%2520cart%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-sb%2520btn-sb-close%2522%253Ex%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
                             sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
                 </div>
+
+                <!-- Live demo -->
+                <div class="live-demo">
+                    <h3>Live Demo</h3>
+                    <p>Click on the below toast buttons to open the toast.</p>
+                    <div class="demo-btn-container">
+                        <button class="btn-solid btn-medium" id="toast-success-btn">success</button>
+                        <button class="btn-solid btn-medium" id="toast-warning-btn">warning</button>
+                        <button class="btn-solid btn-medium" id="toast-alert-btn">alert</button>
+                    </div>
+
+                    <div class="show-success-toast toast-right">
+                        <div class="snackbar-container">
+                            <div class="snackbar-success">
+                            <p class="snackbar-text">Added to cart successfully.</p>
+                            <button class="btn-sb btn-sb-close close-success-toast">x</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="show-warning-toast toast-left">
+                        <div class="snackbar-container">
+                            <div class="snackbar-warning">
+                            <p class="snackbar-text">Order could not be executed.</p>
+                            <button class="btn-sb btn-sb-retry">retry</button>
+                            <button class="btn-sb btn-sb-close close-warning-toast">x</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="show-alert-toast toast-right">
+                        <div class="snackbar-container">
+                            <div class="snackbar-alert">
+                            <p class="snackbar-text">Removed from the cart</p>
+                            <button class="btn-sb btn-sb-close close-alert-toast">x</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="break-inter"></div>
             </div>
 
@@ -892,8 +944,8 @@
                     <div class="box-content-row">
                         <div class="modal-container">
                             <div class="modal">
-                                <h4>Shop with exclusive offers</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. </p>
+                                <h4 class="modal-heading">Shop with exclusive offers</h4>
+                                <p class="modal-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. </p>
                                 <div class="modal-btn-container">
                                     <button class="btn-solid btn-small modal-btn">Go Back</button>
                                     <button class="btn-outline btn-small modal-btn">Shop Now</button>
@@ -909,9 +961,26 @@
                         </iframe>
                     </div>
                 </div>
+              
+                <!-- Live demo -->
+                <div class="live-demo">
+                    <h3>Live Demo</h3>
+                    <p>Click on the below modal button to open the modal.</p>
+                    <button class="btn-solid btn-medium" id="modal-demo-btn">Open Modal</button>
+                    <div class="show-modal modal-center">
+                        <div class="modal-demo">
+                            <h4 class="modal-heading">Shop with exclusive offers</h4>
+                            <p class="modal-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. </p>
+                            <div class="modal-btn-container">
+                                <button class="btn-solid btn-small modal-btn">Go Back</button>
+                                <button class="btn-outline btn-small modal-btn">Shop Now</button>
+                            </div>
+                            <button class="modal-close-btn modal-demo-btn-close"><i class="fa fa-times" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </div>
                 <div class="break-inter"></div>
             </div>
-
             
             <!-- List -->
 
