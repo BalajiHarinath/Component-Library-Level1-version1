@@ -92,6 +92,10 @@ html{
     .sidebar{
         grid-column: 1/-1;
         height: fit-content;
+        padding: 0;
+        z-index: 2; /* To avoid overlapping of main component on the sidebar-opening-button div */
+        position: sticky;    
+        top: 0; 
     }
 
     .main{
@@ -99,14 +103,11 @@ html{
     }
 
     /*Sidebar styling*/
-    
-    .sidebar{
-        z-index: 2;   /* To avoid overlapping of main component on the sidebar-opening-button div */
-    }
-    .sidebar-opening-button{
+
+    .sidebar-mobile-display{
         padding: 1rem 2rem;
         display: flex;
-        background-color: var(--sidebar-bg);    
+        background-color: var(--sidebar-bg);
     }
 
     .sidebar-ul {
@@ -121,9 +122,9 @@ html{
         display: none;
     }
 
-    .sidebar{
+    /* .sidebar{
         padding: 0;
-    }
+    } */
 
     .sidebar-title{
         font-size: large;
