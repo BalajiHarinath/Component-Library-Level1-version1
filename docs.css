@@ -87,15 +87,16 @@ html{
 
     .nav-bar{
         padding: 2rem 3rem 2rem 3rem; 
+        position: fixed;
+        top: 0;
+        z-index: 4;
     }
 
     .sidebar{
         grid-column: 1/-1;
         height: fit-content;
         padding: 0;
-        z-index: 2; /* To avoid overlapping of main component on the sidebar-opening-button div */
-        position: sticky;    
-        top: 0; 
+        z-index: 4; /* To avoid overlapping of main component on the sidebar-opening-button div */
     }
 
     .main{
@@ -108,9 +109,18 @@ html{
         padding: 1rem 2rem;
         display: flex;
         background-color: var(--sidebar-bg);
+        position: fixed;
+        top: 4rem;
+        left: 0;
+        right: 0;
+    }
+
+    .sidebar-mobile-display-open { 
+        top: 1rem;
     }
 
     .sidebar-ul {
+        margin-top: 2.5rem;
         gap: 1.5rem;
     }
 
@@ -121,10 +131,6 @@ html{
     .header-hide{
         display: none;
     }
-
-    /* .sidebar{
-        padding: 0;
-    } */
 
     .sidebar-title{
         font-size: large;
@@ -144,7 +150,7 @@ html{
         align-items: center;
         background-color:  var(--sidebar-bg);
         overflow-y: hidden;
-        height: calc(100vh - 3.3rem); /*Subtracting the height of sidebar-opening-button div*/
+        height: 100vh;
     }
 
     .sidebar-arrow-rotate{
@@ -158,6 +164,10 @@ html{
         display: none;
     }
 
+    .component {
+        margin-top: 5rem;
+    }
+
     .footer-hide{
         display: none;
     }
@@ -166,4 +176,23 @@ html{
         color: var(--float-btn-mobile-screen);
     }
 
+    /*--------Toast component ---------*/
+    .toast-right {
+        position: fixed;
+        top: 6rem;
+        right: 0;
+        z-index: 3;
+      }
+      
+      .toast-left {
+        position: fixed;
+        top: 6rem;
+        left: 0;
+        z-index: 3;
+      }
+
+    /*--------Modal component ---------*/
+      .modal {
+          width: fit-content;
+      }
 }

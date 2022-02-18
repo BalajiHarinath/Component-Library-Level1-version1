@@ -9,6 +9,7 @@
     background-color: var(--secondary-color);
     box-shadow: var(--box-shadow);
     overflow: hidden;
+    z-index: 2;
 }
 
 .nav-bar-links{
