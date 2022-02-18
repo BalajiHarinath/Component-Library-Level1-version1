@@ -98,6 +98,10 @@
 		grid-column: 1/-1;
 	}
 
+	.mobile-hide {
+		display: none;
+	}
+
 	.home-snippet{
 		grid-column: 1/-1;
 	}
