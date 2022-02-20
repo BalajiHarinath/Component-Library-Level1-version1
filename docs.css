@@ -105,7 +105,7 @@ html{
 
     /*Sidebar styling*/
 
-    .sidebar-mobile-display{
+    .sidebar-small-screen{
         padding: 1rem 2rem;
         display: flex;
         background-color: var(--sidebar-bg);
@@ -115,7 +115,7 @@ html{
         right: 0;
     }
 
-    .sidebar-mobile-display-open { 
+    .sidebar-small-screen-open { 
         top: 1rem;
     }
 
@@ -172,7 +172,7 @@ html{
         display: none;
     }
 
-    .floating-btn-mobile-screen{
+    .floating-btn-small-screen{
         color: var(--float-btn-mobile-screen);
     }
 
