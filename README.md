@@ -5,6 +5,7 @@
 <h2>Quick Start</h2>
 
 To start using the components in your project, Copy-paste the below link tag in your ```<head>``` before all other stylesheets.
+    
     <link
         rel="stylesheet"
         href="https://simpleui-component-library.netlify.app/Components/simpleui.css"
@@ -42,8 +43,7 @@ Simple UI has the following types of alerts:
 </ul>
 
 <h2>Avatar</h2>
-An Avatar is used to display profile pictures in various social media applications..
-Simple UI has the following types of alerts:
+An Avatar is used to display profile pictures in various social media applications.
 
 <h2>Badge</h2>
 Badges are used to display status information on profile pictures and also the notification count on various icons.
@@ -140,7 +140,7 @@ Simple UI has the following types of text utilities:
 </ul>
 
 <h2>Grids</h2>
-grid creates complex responsive web design grid layouts more easily and consistently across browsers.
+Grid creates complex responsive web design grid layouts more easily and consistently across browsers.
 Simple UI has the following types of grids:
 <ul>
     <li>Two Item Grid (rows/columns)</li>
