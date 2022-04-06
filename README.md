@@ -2,7 +2,8 @@
 <br>
 <b>Simple UI</b> is Component Library which helps you to buid your UI faster and easier.
 
-<h2>Comments.md</h2>
+## Comments.md 
+[comments.md](https://github.com/BalajiHarinath/Component-Library-Level1-version1/blob/temp-dev/comments.md)
 
 <h2>Quick Start</h2>
 
