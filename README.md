@@ -2,6 +2,8 @@
 <br>
 <b>Simple UI</b> is Component Library which helps you to buid your UI faster and easier.
 
+<h2>Comments.md</h2>
+
 <h2>Quick Start</h2>
 
 To start using the components in your project, Copy-paste the below link tag in your ```<head>``` before all other stylesheets.
