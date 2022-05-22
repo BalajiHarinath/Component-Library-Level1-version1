@@ -71,6 +71,10 @@ html{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
+#move-to-top > button {
+    color: var(--float-btn-mobile-screen);
+}
+
 
 /*-----------Media-Query-------------*/
 

@@ -8,6 +8,11 @@
     width: 90%;
 }
 
+.topbar-container-navigation-mobile {
+    margin: 2rem 1rem;
+    width: 60%;
+}
+
 .topbar-article{
     display: flex;
     align-items: center;
@@ -28,6 +33,14 @@
 }
 
 .topbar-btn-container{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-self: stretch;
+    gap: 2rem;
+}
+
+.topbar-btn-container-navigation-mobile{
     flex-grow: 1;
     display: flex;
     justify-content: flex-end;
@@ -56,6 +69,11 @@
     background-color: var(--nav-violet);
 }
 
+.btn-tb-hamburger { 
+    padding-right: 1rem;
+    font-size: large;
+}
+
 .btn-tb-login{
     border: transparent;
     background-color: var(--nav-violet);
@@ -63,5 +81,31 @@
     align-self: center;
     cursor: pointer;
     padding: 4px 8px;
+    margin-left: 1rem;
     border-radius: 3px;
+}
+
+.btn-transparent-navigation-mobile {
+    background: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+
+.container-sidebar-navigation {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 1rem 1rem 1rem;
+    border: 1px solid var(--nav-violet);
+    background: var(--nav-white);
+    width: fit-content;
+}
+
+.icon-sidebar-nav:hover {
+    color: var(--nav-violet);
+}
+
+@media screen and (max-width: 666px) {
+    .title-navigation-mobile {
+        display: none;
+    }
 }
